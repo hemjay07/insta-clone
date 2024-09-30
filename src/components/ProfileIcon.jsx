@@ -1,4 +1,5 @@
 export default function ProfileIcon({ iconSize, storyBorder }) {
+  // A function that generates a random number between a maximum and a minimun
   function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -7,6 +8,7 @@ export default function ProfileIcon({ iconSize, storyBorder }) {
   }
   let randomId = getRandomInt(1, 70);
 
+  // get a random image from this API
   let profileImage = `https://i.pravatar.cc/150?img=${randomId}`;
 
   // Define a Tailwind gradient for the story border

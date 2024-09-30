@@ -2,7 +2,7 @@ import Story from "./Story";
 
 export default function Stories() {
   return (
-    <div className="flex  justify-start gap-4 my-6 overflow-auto px-8">
+    <div className="flex justify-start gap-4 my-6  px-8">
       <Story />
       <Story />
       <Story />
